@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-3y3e)f@hyk62%j_hy1q*mb)i-*&wk0cbyk0ay=4eglkq%lng+8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "kazyna-backend.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
